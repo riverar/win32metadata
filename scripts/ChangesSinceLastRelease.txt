@@ -1,0 +1,394 @@
+# Set default calling convention to stdcall
+Windows.Win32.Devices.Display.PVIDEO_WIN32K_CALLOUT removed
+Windows.Win32.Devices.Display.PVIDEO_WIN32K_CALLOUT(X64, Arm64) added
+Windows.Win32.Devices.Display.PVIDEO_WIN32K_CALLOUT(X86) added
+Windows.Win32.Graphics.Printing.Apis.AppendPrinterNotifyInfoData removed
+Windows.Win32.Graphics.Printing.Apis.AppendPrinterNotifyInfoData(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.AppendPrinterNotifyInfoData(X86) added
+Windows.Win32.Graphics.Printing.Apis.CallRouterFindFirstPrinterChangeNotification removed
+Windows.Win32.Graphics.Printing.Apis.CallRouterFindFirstPrinterChangeNotification(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.CallRouterFindFirstPrinterChangeNotification(X86) added
+Windows.Win32.Graphics.Printing.Apis.CreatePrinterIC removed
+Windows.Win32.Graphics.Printing.Apis.CreatePrinterIC(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.CreatePrinterIC(X86) added
+Windows.Win32.Graphics.Printing.Apis.DeletePrinterIC removed
+Windows.Win32.Graphics.Printing.Apis.DeletePrinterIC(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.DeletePrinterIC(X86) added
+Windows.Win32.Graphics.Printing.Apis.DevQueryPrint removed
+Windows.Win32.Graphics.Printing.Apis.DevQueryPrint(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.DevQueryPrint(X86) added
+Windows.Win32.Graphics.Printing.Apis.ExtDeviceMode removed
+Windows.Win32.Graphics.Printing.Apis.ExtDeviceMode(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.ExtDeviceMode(X86) added
+Windows.Win32.Graphics.Printing.Apis.GetJobAttributes removed
+Windows.Win32.Graphics.Printing.Apis.GetJobAttributes(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.GetJobAttributes(X86) added
+Windows.Win32.Graphics.Printing.Apis.GetJobAttributesEx removed
+Windows.Win32.Graphics.Printing.Apis.GetJobAttributesEx(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.GetJobAttributesEx(X86) added
+Windows.Win32.Graphics.Printing.Apis.ImpersonatePrinterClient removed
+Windows.Win32.Graphics.Printing.Apis.ImpersonatePrinterClient(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.ImpersonatePrinterClient(X86) added
+Windows.Win32.Graphics.Printing.Apis.PartialReplyPrinterChangeNotification removed
+Windows.Win32.Graphics.Printing.Apis.PartialReplyPrinterChangeNotification(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.PartialReplyPrinterChangeNotification(X86) added
+Windows.Win32.Graphics.Printing.Apis.PlayGdiScriptOnPrinterIC removed
+Windows.Win32.Graphics.Printing.Apis.PlayGdiScriptOnPrinterIC(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.PlayGdiScriptOnPrinterIC(X86) added
+Windows.Win32.Graphics.Printing.Apis.ProvidorFindClosePrinterChangeNotification removed
+Windows.Win32.Graphics.Printing.Apis.ProvidorFindClosePrinterChangeNotification(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.ProvidorFindClosePrinterChangeNotification(X86) added
+Windows.Win32.Graphics.Printing.Apis.ProvidorFindFirstPrinterChangeNotification removed
+Windows.Win32.Graphics.Printing.Apis.ProvidorFindFirstPrinterChangeNotification(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.ProvidorFindFirstPrinterChangeNotification(X86) added
+Windows.Win32.Graphics.Printing.Apis.ReplyPrinterChangeNotification removed
+Windows.Win32.Graphics.Printing.Apis.ReplyPrinterChangeNotification(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.ReplyPrinterChangeNotification(X86) added
+Windows.Win32.Graphics.Printing.Apis.ReplyPrinterChangeNotificationEx removed
+Windows.Win32.Graphics.Printing.Apis.ReplyPrinterChangeNotificationEx(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.ReplyPrinterChangeNotificationEx(X86) added
+Windows.Win32.Graphics.Printing.Apis.RevertToPrinterSelf removed
+Windows.Win32.Graphics.Printing.Apis.RevertToPrinterSelf(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.RevertToPrinterSelf(X86) added
+Windows.Win32.Graphics.Printing.Apis.RouterAllocBidiMem removed
+Windows.Win32.Graphics.Printing.Apis.RouterAllocBidiMem(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.RouterAllocBidiMem(X86) added
+Windows.Win32.Graphics.Printing.Apis.RouterAllocBidiResponseContainer removed
+Windows.Win32.Graphics.Printing.Apis.RouterAllocBidiResponseContainer(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.RouterAllocBidiResponseContainer(X86) added
+Windows.Win32.Graphics.Printing.Apis.RouterAllocPrinterNotifyInfo removed
+Windows.Win32.Graphics.Printing.Apis.RouterAllocPrinterNotifyInfo(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.RouterAllocPrinterNotifyInfo(X86) added
+Windows.Win32.Graphics.Printing.Apis.RouterFreeBidiMem removed
+Windows.Win32.Graphics.Printing.Apis.RouterFreeBidiMem(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.RouterFreeBidiMem(X86) added
+Windows.Win32.Graphics.Printing.Apis.RouterFreeBidiResponseContainer removed
+Windows.Win32.Graphics.Printing.Apis.RouterFreeBidiResponseContainer(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.RouterFreeBidiResponseContainer(X86) added
+Windows.Win32.Graphics.Printing.Apis.RouterFreePrinterNotifyInfo removed
+Windows.Win32.Graphics.Printing.Apis.RouterFreePrinterNotifyInfo(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.RouterFreePrinterNotifyInfo(X86) added
+Windows.Win32.Graphics.Printing.Apis.SplIsSessionZero removed
+Windows.Win32.Graphics.Printing.Apis.SplIsSessionZero(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.SplIsSessionZero(X86) added
+Windows.Win32.Graphics.Printing.Apis.SplPromptUIInUsersSession removed
+Windows.Win32.Graphics.Printing.Apis.SplPromptUIInUsersSession(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.SplPromptUIInUsersSession(X86) added
+Windows.Win32.Graphics.Printing.Apis.SpoolerFindClosePrinterChangeNotification removed
+Windows.Win32.Graphics.Printing.Apis.SpoolerFindClosePrinterChangeNotification(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.SpoolerFindClosePrinterChangeNotification(X86) added
+Windows.Win32.Graphics.Printing.Apis.SpoolerFindFirstPrinterChangeNotification removed
+Windows.Win32.Graphics.Printing.Apis.SpoolerFindFirstPrinterChangeNotification(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.SpoolerFindFirstPrinterChangeNotification(X86) added
+Windows.Win32.Graphics.Printing.Apis.SpoolerFindNextPrinterChangeNotification removed
+Windows.Win32.Graphics.Printing.Apis.SpoolerFindNextPrinterChangeNotification(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.SpoolerFindNextPrinterChangeNotification(X86) added
+Windows.Win32.Graphics.Printing.Apis.SpoolerFreePrinterNotifyInfo removed
+Windows.Win32.Graphics.Printing.Apis.SpoolerFreePrinterNotifyInfo(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.SpoolerFreePrinterNotifyInfo(X86) added
+Windows.Win32.Graphics.Printing.Apis.SpoolerRefreshPrinterChangeNotification removed
+Windows.Win32.Graphics.Printing.Apis.SpoolerRefreshPrinterChangeNotification(X64, Arm64) added
+Windows.Win32.Graphics.Printing.Apis.SpoolerRefreshPrinterChangeNotification(X86) added
+Windows.Win32.Graphics.Printing.PRINTPROVIDOR removed
+Windows.Win32.Graphics.Printing.PRINTPROVIDOR(X64, Arm64) added
+Windows.Win32.Graphics.Printing.PRINTPROVIDOR(X86) added
+Windows.Win32.Media.MediaFoundation.Apis.MFCreateD3D12SynchronizationObject removed
+Windows.Win32.Media.MediaFoundation.Apis.MFCreateD3D12SynchronizationObject(X64, Arm64) added
+Windows.Win32.Media.MediaFoundation.Apis.MFCreateD3D12SynchronizationObject(X86) added
+Windows.Win32.Media.MediaFoundation.Apis.OPMXboxEnableHDCP removed
+Windows.Win32.Media.MediaFoundation.Apis.OPMXboxEnableHDCP(X64, Arm64) added
+Windows.Win32.Media.MediaFoundation.Apis.OPMXboxEnableHDCP(X86) added
+Windows.Win32.Media.MediaFoundation.Apis.OPMXboxGetHDCPStatus removed
+Windows.Win32.Media.MediaFoundation.Apis.OPMXboxGetHDCPStatus(X64, Arm64) added
+Windows.Win32.Media.MediaFoundation.Apis.OPMXboxGetHDCPStatus(X86) added
+Windows.Win32.Media.MediaFoundation.Apis.OPMXboxGetHDCPStatusAndType removed
+Windows.Win32.Media.MediaFoundation.Apis.OPMXboxGetHDCPStatusAndType(X64, Arm64) added
+Windows.Win32.Media.MediaFoundation.Apis.OPMXboxGetHDCPStatusAndType(X86) added
+Windows.Win32.Media.MediaFoundation.MFPERIODICCALLBACK removed
+Windows.Win32.Media.MediaFoundation.MFPERIODICCALLBACK(X64, Arm64) added
+Windows.Win32.Media.MediaFoundation.MFPERIODICCALLBACK(X86) added
+Windows.Win32.Networking.WinSock.LPFN_NSPAPI removed
+Windows.Win32.Networking.WinSock.LPFN_NSPAPI(X64, Arm64) added
+Windows.Win32.Networking.WinSock.LPFN_NSPAPI(X86) added
+Windows.Win32.Networking.WinSock.LPSERVICE_CALLBACK_PROC removed
+Windows.Win32.Networking.WinSock.LPSERVICE_CALLBACK_PROC(X64, Arm64) added
+Windows.Win32.Networking.WinSock.LPSERVICE_CALLBACK_PROC(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpAddServer removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpAddServer(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpAddServer(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpAuditLogGetParams removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpAuditLogGetParams(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpAuditLogGetParams(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpAuditLogSetParams removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpAuditLogSetParams(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpAuditLogSetParams(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpCreateClass removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpCreateClass(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpCreateClass(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpCreateOptionV5 removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpCreateOptionV5(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpCreateOptionV5(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpDeleteClass removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpDeleteClass(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpDeleteClass(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpDeleteServer removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpDeleteServer(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpDeleteServer(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpDeleteSuperScopeV4 removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpDeleteSuperScopeV4(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpDeleteSuperScopeV4(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpDsCleanup removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpDsCleanup(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpDsCleanup(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpDsInit removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpDsInit(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpDsInit(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpEnumClasses removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpEnumClasses(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpEnumClasses(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpEnumOptionsV5 removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpEnumOptionsV5(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpEnumOptionsV5(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpEnumOptionValuesV5 removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpEnumOptionValuesV5(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpEnumOptionValuesV5(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpEnumServers removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpEnumServers(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpEnumServers(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetAllOptions removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetAllOptions(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetAllOptions(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetAllOptionValues removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetAllOptionValues(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetAllOptionValues(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetClassInfo removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetClassInfo(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetClassInfo(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetMibInfoV6 removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetMibInfoV6(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetMibInfoV6(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetOptionInfoV5 removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetOptionInfoV5(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetOptionInfoV5(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetOptionValueV5 removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetOptionValueV5(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetOptionValueV5(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetOptionValueV6 removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetOptionValueV6(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetOptionValueV6(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetSuperScopeInfoV4 removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetSuperScopeInfoV4(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetSuperScopeInfoV4(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetThreadOptions removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetThreadOptions(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpGetThreadOptions(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpHlprFindV4DhcpProperty removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpHlprFindV4DhcpProperty(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpHlprFindV4DhcpProperty(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpModifyClass removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpModifyClass(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpModifyClass(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpRemoveOptionV5 removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpRemoveOptionV5(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpRemoveOptionV5(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpRemoveOptionValueV5 removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpRemoveOptionValueV5(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpRemoveOptionValueV5(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerBackupDatabase removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerBackupDatabase(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerBackupDatabase(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerQueryAttribute removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerQueryAttribute(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerQueryAttribute(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerQueryAttributes removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerQueryAttributes(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerQueryAttributes(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerQueryDnsRegCredentials removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerQueryDnsRegCredentials(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerQueryDnsRegCredentials(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerRedoAuthorization removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerRedoAuthorization(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerRedoAuthorization(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerRestoreDatabase removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerRestoreDatabase(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerRestoreDatabase(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerSetDnsRegCredentials removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerSetDnsRegCredentials(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerSetDnsRegCredentials(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerSetDnsRegCredentialsV5 removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerSetDnsRegCredentialsV5(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpServerSetDnsRegCredentialsV5(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpSetOptionInfoV5 removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpSetOptionInfoV5(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpSetOptionInfoV5(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpSetOptionValuesV5 removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpSetOptionValuesV5(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpSetOptionValuesV5(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpSetOptionValueV5 removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpSetOptionValueV5(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpSetOptionValueV5(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpSetSubnetInfoV6 removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpSetSubnetInfoV6(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpSetSubnetInfoV6(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpSetSuperScopeV4 removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpSetSuperScopeV4(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpSetSuperScopeV4(X86) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpSetThreadOptions removed
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpSetThreadOptions(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dhcp.Apis.DhcpSetThreadOptions(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionDeletePolicyEntries removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionDeletePolicyEntries(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionDeletePolicyEntries(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionDeleteProxyInfo removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionDeleteProxyInfo(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionDeleteProxyInfo(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionFreeNameList removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionFreeNameList(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionFreeNameList(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionFreeProxyInfo removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionFreeProxyInfo(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionFreeProxyInfo(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionFreeProxyInfoEx removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionFreeProxyInfoEx(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionFreeProxyInfoEx(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionFreeProxyList removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionFreeProxyList(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionFreeProxyList(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionGetNameList removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionGetNameList(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionGetNameList(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionGetProxyInfo removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionGetProxyInfo(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionGetProxyInfo(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionGetProxyInfoForHostUrl removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionGetProxyInfoForHostUrl(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionGetProxyInfoForHostUrl(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionGetProxyList removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionGetProxyList(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionGetProxyList(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionSetPolicyEntries removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionSetPolicyEntries(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionSetPolicyEntries(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionSetProxyInfo removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionSetProxyInfo(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionSetProxyInfo(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionUpdateIfIndexTable removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionUpdateIfIndexTable(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsConnectionUpdateIfIndexTable(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsFreeCustomServers removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsFreeCustomServers(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsFreeCustomServers(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsGetApplicationSettings removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsGetApplicationSettings(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsGetApplicationSettings(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsRecordSetDetach removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsRecordSetDetach(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsRecordSetDetach(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsSetApplicationSettings removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsSetApplicationSettings(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsSetApplicationSettings(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsValidateName_A removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsValidateName_A(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsValidateName_A(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsValidateName_UTF8 removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsValidateName_UTF8(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsValidateName_UTF8(X86) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsValidateName_W removed
+Windows.Win32.NetworkManagement.Dns.Apis.DnsValidateName_W(X64, Arm64) added
+Windows.Win32.NetworkManagement.Dns.Apis.DnsValidateName_W(X86) added
+Windows.Win32.NetworkManagement.IpHelper.Apis.GetOwnerModuleFromPidAndInfo removed
+Windows.Win32.NetworkManagement.IpHelper.Apis.GetOwnerModuleFromPidAndInfo(X64, Arm64) added
+Windows.Win32.NetworkManagement.IpHelper.Apis.GetOwnerModuleFromPidAndInfo(X86) added
+Windows.Win32.Storage.IscsiDisc.PDUMP_DEVICE_POWERON_ROUTINE removed
+Windows.Win32.Storage.IscsiDisc.PDUMP_DEVICE_POWERON_ROUTINE(X64, Arm64) added
+Windows.Win32.Storage.IscsiDisc.PDUMP_DEVICE_POWERON_ROUTINE(X86) added
+Windows.Win32.System.Diagnostics.Debug.PCOGETACTIVATIONSTATE removed
+Windows.Win32.System.Diagnostics.Debug.PCOGETACTIVATIONSTATE(X64, Arm64) added
+Windows.Win32.System.Diagnostics.Debug.PCOGETACTIVATIONSTATE(X86) added
+Windows.Win32.System.Diagnostics.Debug.PCOGETCALLSTATE removed
+Windows.Win32.System.Diagnostics.Debug.PCOGETCALLSTATE(X64, Arm64) added
+Windows.Win32.System.Diagnostics.Debug.PCOGETCALLSTATE(X86) added
+Windows.Win32.System.Diagnostics.Debug.WHEA_ERROR_SOURCE_CORRECT_DEVICE_DRIVER removed
+Windows.Win32.System.Diagnostics.Debug.WHEA_ERROR_SOURCE_CORRECT_DEVICE_DRIVER(X64, Arm64) added
+Windows.Win32.System.Diagnostics.Debug.WHEA_ERROR_SOURCE_CORRECT_DEVICE_DRIVER(X86) added
+Windows.Win32.System.Diagnostics.Debug.WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER removed
+Windows.Win32.System.Diagnostics.Debug.WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER(X64, Arm64) added
+Windows.Win32.System.Diagnostics.Debug.WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER(X86) added
+Windows.Win32.System.Diagnostics.Debug.WHEA_ERROR_SOURCE_UNINITIALIZE_DEVICE_DRIVER removed
+Windows.Win32.System.Diagnostics.Debug.WHEA_ERROR_SOURCE_UNINITIALIZE_DEVICE_DRIVER(X64, Arm64) added
+Windows.Win32.System.Diagnostics.Debug.WHEA_ERROR_SOURCE_UNINITIALIZE_DEVICE_DRIVER(X86) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_COMMIT_PAGES removed
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_COMMIT_PAGES(X64, Arm64) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_COMMIT_PAGES(X86) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_CREATE_THREAD : [StructLayout(3,CharSet=4),SupportedArchitecture(1),UnmanagedFunctionPointer(2)] => [StructLayout(3,CharSet=4),SupportedArchitecture(1),UnmanagedFunctionPointer(1)]
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_DECOMMIT_PAGES removed
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_DECOMMIT_PAGES(X64, Arm64) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_DECOMMIT_PAGES(X86) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_GENERATE_KEY removed
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_GENERATE_KEY(X64, Arm64) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_GENERATE_KEY(X86) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_GENERATE_RANDOM_DATA removed
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_GENERATE_RANDOM_DATA(X64, Arm64) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_GENERATE_RANDOM_DATA(X86) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_GENERATE_REPORT removed
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_GENERATE_REPORT(X64, Arm64) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_GENERATE_REPORT(X86) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_GET_ENCLAVE_INFORMATION removed
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_GET_ENCLAVE_INFORMATION(X64, Arm64) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_GET_ENCLAVE_INFORMATION(X86) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_INTERRUPT_THREAD : [StructLayout(3,CharSet=4),SupportedArchitecture(1),UnmanagedFunctionPointer(2)] => [StructLayout(3,CharSet=4),SupportedArchitecture(1),UnmanagedFunctionPointer(1)]
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_PROTECT_PAGES removed
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_PROTECT_PAGES(X64, Arm64) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_PROTECT_PAGES(X86) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_RETURN_FROM_ENCLAVE removed
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_RETURN_FROM_ENCLAVE(X64, Arm64) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_RETURN_FROM_ENCLAVE(X86) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_RETURN_FROM_EXCEPTION(Arm64) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_RETURN_FROM_EXCEPTION(X86, Arm64) removed
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_RETURN_FROM_EXCEPTION(X86) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_TERMINATE_THREAD : [StructLayout(3,CharSet=4),SupportedArchitecture(1),UnmanagedFunctionPointer(2)] => [StructLayout(3,CharSet=4),SupportedArchitecture(1),UnmanagedFunctionPointer(1)]
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_VERIFY_REPORT removed
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_VERIFY_REPORT(X64, Arm64) added
+Windows.Win32.System.Environment.VBS_BASIC_ENCLAVE_BASIC_CALL_VERIFY_REPORT(X86) added
+Windows.Win32.System.Ioctl.PIO_IRP_EXT_PROCESS_TRACKED_OFFSET_CALLBACK removed
+Windows.Win32.System.Ioctl.PIO_IRP_EXT_PROCESS_TRACKED_OFFSET_CALLBACK(X64, Arm64) added
+Windows.Win32.System.Ioctl.PIO_IRP_EXT_PROCESS_TRACKED_OFFSET_CALLBACK(X86) added
+Windows.Win32.System.Performance.Apis.BackupPerfRegistryToFileW removed
+Windows.Win32.System.Performance.Apis.BackupPerfRegistryToFileW(X64, Arm64) added
+Windows.Win32.System.Performance.Apis.BackupPerfRegistryToFileW(X86) added
+Windows.Win32.System.Performance.Apis.RestorePerfRegistryFromFileW removed
+Windows.Win32.System.Performance.Apis.RestorePerfRegistryFromFileW(X64, Arm64) added
+Windows.Win32.System.Performance.Apis.RestorePerfRegistryFromFileW(X86) added
+Windows.Win32.System.WindowsProgramming.Apis.GetFeatureEnabledState removed
+Windows.Win32.System.WindowsProgramming.Apis.GetFeatureEnabledState(X64, Arm64) added
+Windows.Win32.System.WindowsProgramming.Apis.GetFeatureEnabledState(X86) added
+Windows.Win32.System.WindowsProgramming.Apis.GetFeatureVariant removed
+Windows.Win32.System.WindowsProgramming.Apis.GetFeatureVariant(X64, Arm64) added
+Windows.Win32.System.WindowsProgramming.Apis.GetFeatureVariant(X86) added
+Windows.Win32.System.WindowsProgramming.Apis.RecordFeatureError removed
+Windows.Win32.System.WindowsProgramming.Apis.RecordFeatureError(X64, Arm64) added
+Windows.Win32.System.WindowsProgramming.Apis.RecordFeatureError(X86) added
+Windows.Win32.System.WindowsProgramming.Apis.RecordFeatureUsage removed
+Windows.Win32.System.WindowsProgramming.Apis.RecordFeatureUsage(X64, Arm64) added
+Windows.Win32.System.WindowsProgramming.Apis.RecordFeatureUsage(X86) added
+Windows.Win32.System.WindowsProgramming.Apis.SubscribeFeatureStateChangeNotification removed
+Windows.Win32.System.WindowsProgramming.Apis.SubscribeFeatureStateChangeNotification(X64, Arm64) added
+Windows.Win32.System.WindowsProgramming.Apis.SubscribeFeatureStateChangeNotification(X86) added
+Windows.Win32.System.WindowsProgramming.Apis.UnsubscribeFeatureStateChangeNotification removed
+Windows.Win32.System.WindowsProgramming.Apis.UnsubscribeFeatureStateChangeNotification(X64, Arm64) added
+Windows.Win32.System.WindowsProgramming.Apis.UnsubscribeFeatureStateChangeNotification(X86) added
+Windows.Win32.System.WindowsProgramming.ENUM_CALLBACK removed
+Windows.Win32.System.WindowsProgramming.ENUM_CALLBACK(X64, Arm64) added
+Windows.Win32.System.WindowsProgramming.ENUM_CALLBACK(X86) added
+Windows.Win32.UI.Shell.PAPPCONSTRAIN_CHANGE_ROUTINE removed
+Windows.Win32.UI.Shell.PAPPCONSTRAIN_CHANGE_ROUTINE(X64, Arm64) added
+Windows.Win32.UI.Shell.PAPPCONSTRAIN_CHANGE_ROUTINE(X86) added
+Windows.Win32.UI.Shell.PAPPSTATE_CHANGE_ROUTINE removed
+Windows.Win32.UI.Shell.PAPPSTATE_CHANGE_ROUTINE(X64, Arm64) added
+Windows.Win32.UI.Shell.PAPPSTATE_CHANGE_ROUTINE(X86) added
+Windows.Win32.UI.WindowsAndMessaging.Apis.DestroyIndexedResults removed
+Windows.Win32.UI.WindowsAndMessaging.Apis.DestroyIndexedResults(X64, Arm64) added
+Windows.Win32.UI.WindowsAndMessaging.Apis.DestroyIndexedResults(X86) added
+Windows.Win32.UI.WindowsAndMessaging.Apis.DestroyResourceIndexer removed
+Windows.Win32.UI.WindowsAndMessaging.Apis.DestroyResourceIndexer(X64, Arm64) added
+Windows.Win32.UI.WindowsAndMessaging.Apis.DestroyResourceIndexer(X86) added
