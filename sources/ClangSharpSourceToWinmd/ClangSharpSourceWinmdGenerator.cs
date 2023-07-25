@@ -67,10 +67,12 @@ namespace ClangSharpSourceToWinmd
         private Dictionary<string, List<INamedTypeSymbol>> namespaceToGuidOnlyStructSymbols = new Dictionary<string, List<INamedTypeSymbol>>();
         private HashSet<StructDeclarationSyntax> guidOnlyStructsConvertedToConsts = new HashSet<StructDeclarationSyntax>();
         private HashSet<string> forceGuidConsts;
+        private readonly List<Regex> ignoreTypeExpressions = new();
 
         private ClangSharpSourceWinmdGenerator(
             CSharpCompilation compilation, 
             Dictionary<string, string> typeImports,
+            string[] ignoreTypeExpressions,
             HashSet<string> reducePointerLevels,
             HashSet<string> forceGuidConsts,
             Version assemblyVersion, 
@@ -90,6 +92,13 @@ namespace ClangSharpSourceToWinmd
                 }
 
                 this.typeImports[name] = pair.Value;
+            }
+
+            if (ignoreTypeExpressions != null)
+            {
+                this.ignoreTypeExpressions = ignoreTypeExpressions
+                    .Select(t => new Regex(t, RegexOptions.Compiled | RegexOptions.IgnoreCase))
+                    .ToList();
             }
 
             VerifySymbolsLoadedByCompiler();
@@ -178,6 +187,7 @@ namespace ClangSharpSourceToWinmd
         public static ClangSharpSourceWinmdGenerator GenerateWindmdForCompilation(
             ClangSharpSourceCompilation compilation, 
             Dictionary<string, string> typeImports,
+            string[] ignoreTypeExpressions,
             HashSet<string> reducePointerLevels,
             HashSet<string> forceGuidConsts,
             Version version, 
@@ -186,7 +196,8 @@ namespace ClangSharpSourceToWinmd
             ClangSharpSourceWinmdGenerator generator = 
                 new ClangSharpSourceWinmdGenerator(
                     compilation.CSharpCompilation, 
-                    typeImports, 
+                    typeImports,
+                    ignoreTypeExpressions,
                     reducePointerLevels,
                     forceGuidConsts,
                     version, 
@@ -569,13 +580,18 @@ namespace ClangSharpSourceToWinmd
                     {
                         foreach (var typeInfo in winmd.GetTypes())
                         {
+                            var fullName = $"{typeInfo.Namespace}.{typeInfo.Name}";
+                            if (this.ignoreTypeExpressions.Any(e => e.IsMatch(fullName)))
+                            {
+                                continue;
+                            }
+
                             if (typeInfo is MetadataUtils.InterfaceInfo interfaceInfo)
                             {
                                 this.CacheInterfaceInfo(interfaceInfo);
                             }
                             else if (typeInfo is MetadataUtils.StructInfo)
                             {
-                                var fullName = $"{typeInfo.Namespace}.{typeInfo.Name}";
                                 var typeSymbol = this.compilation.GetTypeByMetadataName(fullName);
 
                                 if (typeSymbol != null)
@@ -585,7 +601,6 @@ namespace ClangSharpSourceToWinmd
                             }
                             else if (typeInfo is MetadataUtils.DelegateTypeInfo)
                             {
-                                var fullName = $"{typeInfo.Namespace}.{typeInfo.Name}";
                                 var typeSymbol = this.compilation.GetTypeByMetadataName(fullName);
 
                                 if (typeSymbol != null)

@@ -35,7 +35,8 @@ namespace ClangSharpSourceToWinmd
                 new Option<string>("--requiredNamespaceForName", "The required namespace for a named item.", ArgumentArity.OneOrMore),
                 new Option<string>("--autoTypes", "A path to a .json file of auto-types to add to the metadata.", ArgumentArity.OneOrMore),
                 new Option<string>("--staticLibs", "Mapping from DLL names to alternative static libraries.", ArgumentArity.OneOrMore),
-                new Option<string>("--forceGuidConst", "Forces a guid-only struct to be a guid const.", ArgumentArity.OneOrMore)
+                new Option<string>("--forceGuidConst", "Forces a guid-only struct to be a guid const.", ArgumentArity.OneOrMore),
+                new Option<string>("--ignoreTypeExpressions", "Full type names or expressions to be ignored.", ArgumentArity.OneOrMore)
             };
 
             rootCommand.Handler = CommandHandler.Create(typeof(Program).GetMethod(nameof(Run)));
@@ -59,6 +60,7 @@ namespace ClangSharpSourceToWinmd
             var refs = context.ParseResult.ValueForOption<string[]>("--ref");
             var staticLibValuePairs = context.ParseResult.ValueForOption<string[]>("--staticLibs");
             var forceGuidConstsVals = context.ParseResult.ValueForOption<string[]>("--forceGuidConst");
+            var ignoreTypeExpressions = context.ParseResult.ValueForOption<string[]>("--ignoreTypeExpressions");
 
             Dictionary<string, string> remaps = ConvertValuePairsToDictionary(remappedNameValuePairs);
             Dictionary<string, Dictionary<string, string>> enumAdditions = ConvertValuePairsToEnumAdditions(enumAdditionsNameValuePairs);
@@ -157,6 +159,7 @@ namespace ClangSharpSourceToWinmd
                 ClangSharpSourceWinmdGenerator.GenerateWindmdForCompilation(
                     clangSharpCompliation, 
                     typeImports,
+                    ignoreTypeExpressions,
                     reducePointerLevels,
                     forceGuidConsts,
                     assemblyVersion, 
